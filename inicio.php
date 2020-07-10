@@ -17,8 +17,8 @@ if($_SESSION == null)
 $publicaciones = Publicaciones::mostrar();
 ?>
 <div class="container">   
-    <div class="row justify-content-center align-items-center">
-        <div class="col-md-6">
+    <div class="row justify-content-center align-items-center bg-dark">
+        <div class="col-md-6 bg-dark">
           
             <form action="crearpublicacion.php" method="POST">
                 <div class="form-group">

@@ -1,0 +1,19 @@
+{
+    "name": "mariano/social",
+    "description": "Fixmovil.",
+    "authors": [
+        {
+            "name": "marianozzz",
+            "email": "mariano.zanier@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "app/models"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}

@@ -9,7 +9,7 @@ class registration
 
     public function encryptation($password)
     {
-        $passby_hash = password_hash($password, PASSWORD_BCRYPT);
+        $passby_hash = password_hash($password,PASSWORD_DEFAULT);
         return $passby_hash;
     }
     public function setUserRegistration(User $newUser)

@@ -8,7 +8,7 @@
   <?php } ?>
   </nav>
    <?php if(empty($_SESSION)){ ?>
-  <a class="btn btn-outline-primary" href="#">Login</a>
+  <a class="btn btn-outline-primary" href="inicio.php">Login</a>
   <a class="btn btn-outline-primary" href="registro.php">Regristro</a>
    <?php } ?>
 </div>

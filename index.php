@@ -15,9 +15,10 @@
     <div class="container">
 
     <!-- Inicio del row -->
-        <div class="row">
+        <div class="row justify-content-center align-items-center">
+       
     <!--Inicio del col -->
-          <div class="col-md-4">
+          <div class="col-md-4  ">
 
               <form action="login.php" method="post" class="form-group" style="padding-top:80px">
                 

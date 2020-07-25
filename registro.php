@@ -14,7 +14,7 @@
 
     <div class="col-md-4" style="background:#24303c;">
         
-        <form action="testregister.php" method="post">
+        <form action="testregister.php" method="post"  style="padding-bottom:10px">
 
             <div class="form-group">
                 <label for="name">Ingrese su nombre</label>
